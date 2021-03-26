@@ -19,7 +19,9 @@
     "render.js",
     "loadInitialProps.js",
     "serializeData.js",
-    "getAssets.js"
+    "getAssets.js",
+	"utils.js",
+	"NotFoundComponent.js"
   ],
   "scripts": {
     "build:esm": "tsc -p tsconfig.build.json --module es2015 --outDir build/esm",
